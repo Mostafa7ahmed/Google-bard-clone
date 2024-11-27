@@ -137,11 +137,14 @@
 
 .result-title p,
 .result-data p {
-    white-space: pre-wrap;
+white-space: pre-wrap;
     font-size: 1.05rem;
-    padding: 0 50px 0 25px;
+    padding: 8px 50px 8px 25px;
     text-align: start;
+    background: #01000008;
     word-break: break-word;
+    border-radius: 11px;
+    box-shadow: 0px 0px 5px 3px #0000000f;
 }
 
 .result img {
